@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}   
+
+#prueba-de-color{
+    color: #272727;
+}
+
+/* Cargo las fuentes del proyecto*/
+
+@font-face {
+    font-family: 'heycomic';
+    src: url('/src/assets/fonts/Hey Comic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'heroes-legend';
+    src: url('assets/fonts/Heroes Legend.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heroes-legend-hollow';
+    src: url('assets/fonts/Heroes Legend Hollow.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mainstay';
+    src: url('src/assets/fonts/Mainstay.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'woliu-maners';
+    src: url('src/assets/fonts/Woliu Maners Demo.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'nunito';
+    src: url('src/assets/fonts/Nunito-italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'nunito';
+    src: url('src/assets/fonts/static/Nunito-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Defino los Typography del proyecto */
+.typography-logotipo {
+    font-size: 1.5rem;
+    font-family: 'heroes-legend-hollow';
+}
+
+
+.typography-h4 {
+    font-size: 1.2rem;
+    font-family: 'nunito';
+}
+
+.typography-span {
+    font-size: 1rem;
+    font-family: 'nunito';
+}
+
+
+
+
+.coloranashei{
+    background-color: #292929;
+}
+
+.section{
+    max-width: 800px;
+    width: 100%;
+    margin: 60px 0
+}
+

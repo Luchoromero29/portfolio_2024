@@ -1,0 +1,12 @@
+{
+    "presentation": "Soy Luciano tengo 22 años, soy de Mendoza, Godoy cruz. Soy desarrollador fullstak. Me dedico al desarrollo web hace  +3 años, he pasado por cursos, capacitaciones, ingenierías, semilleros y trabajos freelance. Actualmente estoy en Ingeniería en sistemas en la Universidad Tecnológica Nacional.",
+    "navbar": {
+        "about": "Sobre mi",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "contact": "Contacto"
+    },
+    "title": "Desarrollador de Software",
+    "welcome": "Bienvenido a mi portfolio"
+}

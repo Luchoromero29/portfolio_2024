@@ -1,0 +1,12 @@
+{
+    "presentation": "My name is Luciano, a 22-year-old full-stack developer from Godoy Cruz, Mendoza. With over three years of experience in web development, my journey has included courses, specialized training, engineering studies, participation in incubators, and freelance projects. Currently, I am pursuing a degree in Systems Engineering at the National Technological University.",
+    "navbar": {
+        "about": "About me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "title": "Software developer",
+    "welcome": "Welcome to my portfolio"
+}

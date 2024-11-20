@@ -1,0 +1,55 @@
+@keyframes morph {
+    0% {
+      border-radius: 70% 50% 80% 50%;
+    }
+    12.5% {
+      border-radius: 50% 70% 50% 80%;
+    }
+    25% {
+      border-radius: 80% 50% 70% 50%;
+    }
+    37.5% {
+      border-radius: 50% 80% 50% 70%;
+    }
+    50% {
+      border-radius: 50% 60% 70% 90%;
+    }
+    62.5% {
+      border-radius: 80% 70% 60% 60%;
+    }
+    75% {
+      border-radius: 84% 60% 60% 70%;
+    }
+    87.5% {
+      border-radius: 60% 80% 60% 70%;
+    }
+    100% {
+      border-radius: 70% 50% 80% 50%;
+    }
+  }
+  
+  
+  .bubble-animation {
+    animation: morph 25s infinite ease-in-out;
+  }
+
+.background-image{
+    background-image: radial-gradient( circle 311px at 5.6% 17.9%,  rgba(62,147,252,0.57) 13.9%, rgba(239,183,192,0.44) 91.2% );
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    90deg, /* Dirección horizontal */
+    rgba(173, 216, 230, 1) 0%,   /* Celeste claro */
+    rgba(245, 167, 179, 0.897) 50%, /* Rosado claro */
+    rgba(255, 255, 255, 0.8) 100% /* Blanco suave */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem; /* Ajusta según sea necesario */
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.082); /* Sombra sutil */
+}
+  
