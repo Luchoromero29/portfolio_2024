@@ -8,5 +8,38 @@
         "contact": "Contacto"
     },
     "title": "Desarrollador de Software",
-    "welcome": "Bienvenido a mi portfolio"
+    "welcome": "Bienvenido a mi portfolio",
+    "education": {
+        "title":"Educación",
+        "fullstack-java-course": {
+            "title": "Curso de Java Full Stack Developer",
+            "description": "Comencé mi camino en programación con un curso intensivo de Java Full Stack Developer, donde acumulé más de 500 horas en 6 meses. Aprendí Spring Boot, MySQL, Bootstrap, HTML y CSS, desarrollando aplicaciones completas desde el backend hasta el frontend.",
+            "institution": "Egg Educacion"
+        },
+        "javascript-course": {
+            "title": "Curso de JavaScript",
+            "description": "En este curso adquirí conocimientos sólidos en JavaScript desde los fundamentos hasta conceptos avanzados como peticiones asíncronas a APIs y el manejo de callbacks. Como proyecto final, desarrollé una aplicación web integrando local storage.",
+            "institution": "CoderHouse"
+        },
+        "ing-civil": {
+            "title": "Ingeniería Civil",
+            "description": "Cursé mis estudios secundarios en un colegio técnico, graduándome como Maestro Mayor de Obras. Siguiendo esta orientación, decidí estudiar Ingeniería Civil, completando con éxito el primer año. Sin embargo, me di cuenta de que mi verdadera pasión estaba en otro campo.",
+            "institution": "Universidad Nacional de Cuyo"
+        },
+        "ing-sistemas": {
+            "title": "Ingeniería en Sistemas",
+            "description": "Descubrí mi pasión por la programación y los sistemas, por lo que decidí cambiar a Ingeniería en Sistemas. Actualmente estoy en tercer año, habiendo aprobado algunas materias de cuarto.",
+            "institution": "Universidad Tecnológica Nacional"
+        },
+        "bootcamp": {
+            "title": "Bootcamp de Desarrollo Full Stack",
+            "description": "Participé en un bootcamp donde desarrollamos una aplicación completa en equipo utilizando ReactJS, Java con Spring Boot y MySQL como base de datos. Durante tres meses, trabajamos bajo la metodología Scrum, mejorando tanto habilidades técnicas como de trabajo en equipo.",
+            "institution": "Quinto Impacto"
+        },
+        "freelance": {
+            "title": "Desarrollo Freelance",
+            "description": "Actualmente, trabajo como desarrollador freelance, llevando a cabo diversos proyectos, desde landing pages hasta aplicaciones específicas para negocios.",
+            "institution": ""
+        }
+    }
 }

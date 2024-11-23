@@ -71,6 +71,15 @@
     font-family: 'heroes-legend-hollow';
 }
 
+.typography-h1 {
+    font-size: 2.4rem;
+    font-family: 'nunito';
+}
+
+.typography-h2 {
+    font-size: 2rem;
+    font-family: 'nunito';
+}
 
 .typography-h4 {
     font-size: 1.2rem;
@@ -80,6 +89,18 @@
 .typography-span {
     font-size: 1rem;
     font-family: 'nunito';
+}
+
+.typography-span-bold {
+    font-size: 1rem;
+    font-family: 'nunito';
+    font-weight: bold;
+}
+
+.typography-span-italic {
+    font-size: 1rem;
+    font-family: 'nunito';
+    font-style: italic;
 }
 
 

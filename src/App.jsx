@@ -12,10 +12,10 @@ import { Suspense } from 'react'
 function App() {
   return (
     <Suspense fallback="Cargando traducciones">
-      <div className='h-full dark:bg-dark-primary w-full'>
+      <div className='h-full dark:bg-dark-primary w-full flex justify-center'>
         <Header></Header>
 
-        <div className='flex flex-col justify-center items-center h-full w-screen pt-[72px]'>
+        <div className='flex flex-col justify-center items-center h-full w-full pt-[72px] max-w-[800px] mx-2'>
 
           <Presentation></Presentation>
 

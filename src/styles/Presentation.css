@@ -37,6 +37,7 @@
     background-image: radial-gradient( circle 311px at 5.6% 17.9%,  rgba(62,147,252,0.57) 13.9%, rgba(239,183,192,0.44) 91.2% );
 }
 
+/* Estilos de texto de titulos de simulacion de tipeo */
 .gradient-text {
   background-image: linear-gradient(
     90deg, /* Dirección horizontal */
@@ -47,9 +48,54 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 2rem; /* Ajusta según sea necesario */
+  font-size: 3.5rem;
+ /* Ajusta según sea necesario */
   font-weight: bold;
-  text-align: center;
+  line-height: 70px;
+  text-align: start;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.082); /* Sombra sutil */
 }
-  
+
+@media (min-width: 900px) {
+  .gradient-text {
+    font-size: 4.5rem;
+  }
+
+}
+/* 
+Estilos de seccion de Estudios */
+
+.container-date-ball{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.date-ball{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: rgb(173, 216, 230);
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  box-shadow: 0 0 2px 1px rgb(173, 216, 230);
+}
+
+
+.line-education{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 8px;
+  background-color: rgb(173, 216, 230);
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 1px 1px   rgb(173, 216, 230);   
+}
+/*
+
+
+*/

@@ -9,8 +9,6 @@ import moonIcon from "../assets/icons/moon-dark.png";
 const ButtonTheme = () => {
 
     const [theme, setTheme] = useState(() => {
-        console.log(window.matchMedia("(prefers-color-scheme: light)").matches);
-        
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
             return "dark";
         }

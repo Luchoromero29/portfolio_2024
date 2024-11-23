@@ -8,5 +8,38 @@
         "contact": "Contact"
     },
     "title": "Software developer",
-    "welcome": "Welcome to my portfolio"
+    "welcome": "Welcome to my portfolio",
+    "education": {
+        "title":"Education",
+        "fullstack-java-course": {
+            "title": "Java Full Stack Developer Course",
+            "description": "I started my programming journey with an intensive Java Full Stack Developer course, where I completed over 500 hours in 6 months. I learned Spring Boot, MySQL, Bootstrap, HTML, and CSS, developing full applications from backend to frontend.",
+            "institution": "Egg Education"
+        },
+        "javascript-course": {
+            "title": "JavaScript Course",
+            "description": "In this course, I gained solid knowledge of JavaScript, starting from the basics to advanced concepts such as asynchronous API requests and callback handling. For the final project, I developed a web application integrating local storage.",
+            "institution": "CoderHouse"
+        },
+        "ing-civil": {
+            "title": "Civil Engineering",
+            "description": "I attended a technical high school, graduating as a Building Construction Technician. Following this path, I decided to study Civil Engineering, successfully completing my first year. However, I realized my true passion was in a different field.",
+            "institution": "National University of Cuyo"
+        },
+        "ing-sistemas": {
+            "title": "Systems Engineering",
+            "description": "I discovered my passion for programming and systems, which led me to switch to Systems Engineering. I am currently in my third year, having passed some courses from the fourth year.",
+            "institution": "National Technological University"
+        },
+        "bootcamp": {
+            "title": "Full Stack Development Bootcamp",
+            "description": "I participated in a bootcamp where we developed a complete application as a team using ReactJS, Java with Spring Boot, and MySQL as the database. Over three months, we worked following the Scrum methodology, improving both technical and teamwork skills.",
+            "institution": "Quinto Impacto"
+        },
+        "freelance": {
+            "title": "Freelance Development",
+            "description": "I currently work as a freelance developer, carrying out various projects ranging from landing pages to specific business applications.",
+            "institution": ""
+        }
+    }
 }
