@@ -42,7 +42,7 @@ const Education = () => {
                     <div className=' line-education'>
                         <div className='container-date-ball'>
                             <div className='date-ball'>
-                                <Typography variant="span">2021</Typography>
+                                <Typography variant="span">2022</Typography>
                             </div>
                         </div>
                     </div>
