@@ -10,7 +10,7 @@
     "title": "Desarrollador de Software",
     "welcome": "Bienvenido a mi portfolio",
     "education": {
-        "title":"Educación",
+        "title": "Educación",
         "fullstack-java-course": {
             "title": "Curso de Java Full Stack Developer",
             "description": "Comencé mi camino en programación con un curso intensivo de Java Full Stack Developer, donde acumulé más de 500 horas en 6 meses. Aprendí Spring Boot, MySQL, Bootstrap, HTML y CSS, desarrollando aplicaciones completas desde el backend hasta el frontend.",
@@ -40,6 +40,23 @@
             "title": "Desarrollo Freelance",
             "description": "Actualmente, trabajo como desarrollador freelance, llevando a cabo diversos proyectos, desde landing pages hasta aplicaciones específicas para negocios.",
             "institution": ""
+        }
+    },
+    "projects": {
+        "title": "Proyectos",
+        "github": "Código",
+        "deploy": "Probar",
+        "ubuntu": {
+            "title": "Ubuntu",
+            "description": "Participé en el desarrollo de Ubuntu como parte del equipo de Frontend. Ubuntu es una plataforma diseñada para conectar inversionistas con emprendimientos sustentables, promoviendo un impacto positivo en el medio ambiente y un crecimiento sostenible. Utilicé ReactJS para el desarrollo del frontend, Java para el backend, e implementamos bibliotecas como Cloudinary para la gestión de imágenes."
+        },
+        "futbol": {
+            "title": "Trabajo Freelance",
+            "description": "Actualmente trabajo como desarrollador Frontend en una aplicación web destinada a la gestión, planificación y entrenamiento de equipos de fútbol. Empleamos tecnologías como PHP, JavaScript, TailwindCSS y JQuery."
+        },
+        "fitbyte": {
+            "title": "Fitbyte+",
+            "description": "Fitbyte es un proyecto personal diseñado para registrar rutinas de gimnasio, estadísticas, tiempos y entrenamientos. Utilizo ReactJS junto con TailwindCSS para el frontend, Cloudinary para la gestión de imágenes y NodeJS con MySQL para el backend."
         }
     }
 }

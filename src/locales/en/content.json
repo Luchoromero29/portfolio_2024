@@ -10,7 +10,7 @@
     "title": "Software developer",
     "welcome": "Welcome to my portfolio",
     "education": {
-        "title":"Education",
+        "title": "Education",
         "fullstack-java-course": {
             "title": "Java Full Stack Developer Course",
             "description": "I started my programming journey with an intensive Java Full Stack Developer course, where I completed over 500 hours in 6 months. I learned Spring Boot, MySQL, Bootstrap, HTML, and CSS, developing full applications from backend to frontend.",
@@ -40,6 +40,23 @@
             "title": "Freelance Development",
             "description": "I currently work as a freelance developer, carrying out various projects ranging from landing pages to specific business applications.",
             "institution": ""
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "github": "Code",
+        "deploy": "Demo",
+        "ubuntu": {
+            "title": "Ubuntu",
+            "description": "I contributed to the development of Ubuntu as part of the Frontend team. Ubuntu is a platform designed to connect investors with sustainable ventures, promoting positive environmental impact and sustainable growth. I worked with ReactJS for the frontend, Java for the backend, and implemented libraries like Cloudinary for image management."
+        },
+        "futbol": {
+            "title": "Freelance Work",
+            "description": "I am currently working as a Frontend developer on a web application for managing, planning, and training football teams. The project uses technologies such as PHP, JavaScript, TailwindCSS, and JQuery."
+        },
+        "fitbyte": {
+            "title": "Fitbyte+",
+            "description": "Fitbyte is a personal project aimed at tracking gym routines, statistics, timings, and workouts. I use ReactJS with TailwindCSS for the frontend, Cloudinary for image management, and NodeJS with MySQL for the backend."
         }
     }
 }
