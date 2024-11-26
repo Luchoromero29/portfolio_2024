@@ -1,8 +1,7 @@
-# React + Vite
+# Bienvenidos a mi portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pendientes
+- [] poner la lista linea del tiempo de la experiencie de lo mas nuevo a lo mas viejo 
+- [] agregar un mostrar mas para la linea del tiempo de la experiencia
+- [] agregar la seccion de proyectos
+- [] mejorar el tema de colores, respetar lo que es el primary, secundary, backgrounds, etc. y ademas cambias lo que estan hardcodeados en el css

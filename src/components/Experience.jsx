@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
-import ItemEducation from "./ItemEducation"
+import ItemExperience from "./ItemExperience"
 import Typography from "./Typography";
 import TitleSection from "./TitleSection";
 
-const Education = () => {
+const Experiencie = () => {
 
 
 
@@ -16,7 +16,7 @@ const Education = () => {
             </header>
             <section className='flex   gap-8 relative'>
                 <div className='flex w-[90%] sm:w-[45%]' >
-                    <ItemEducation
+                    <ItemExperience
                         title={t("education.fullstack-java-course.title")}
                         description={t("education.fullstack-java-course.description")}
                         institution={t("education.fullstack-java-course.institution")}
@@ -60,7 +60,7 @@ const Education = () => {
                     </div>
                 </div>
                 <div className='flex  sm:w-[45%]'>
-                    <ItemEducation
+                    <ItemExperience
                         title={t("education.ing-civil.title")}
                         description={t("education.ing-civil.description")}
                         institution={t("education.ing-civil.institution")}
@@ -81,12 +81,12 @@ const Education = () => {
 
             <section className='flex   gap-8 relative'>
                 <div className='flex sm:w-[45%] flex-col gap-4' >
-                    <ItemEducation
+                    <ItemExperience
                         title={t("education.ing-sistemas.title")}
                         description={t("education.ing-sistemas.description")}
                         institution={t("education.ing-sistemas.institution")}
                     />
-                    <ItemEducation
+                    <ItemExperience
                         title={t("education.javascript-course.title")}
                         description={t("education.javascript-course.description")}
                         institution={t("education.javascript-course.institution")}
@@ -131,12 +131,12 @@ const Education = () => {
                     </div>
                 </div>
                 <div className='flex  sm:w-[45%] flex-col gap-4' >
-                    <ItemEducation
+                    <ItemExperience
                         title={t("education.bootcamp.title")}
                         description={t("education.bootcamp.description")}
                         institution={t("education.bootcamp.institution")}
                     />
-                    <ItemEducation
+                    <ItemExperience
                         title={t("education.freelance.title")}
                         description={t("education.freelance.description")}
                         institution={t("education.freelance.institution")}
@@ -147,4 +147,4 @@ const Education = () => {
     )
 }
 
-export default Education
+export default Experiencie

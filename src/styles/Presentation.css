@@ -72,8 +72,8 @@ Estilos de seccion de Estudios */
   flex-grow: 1;
 }
 .date-ball{
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,7 @@ Estilos de seccion de Estudios */
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 8px;
+  width: 4px;
   align-items: center;
   justify-content: space-between;
 }

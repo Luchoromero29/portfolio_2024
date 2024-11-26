@@ -41,6 +41,9 @@ export default {
           error: '#ef4444',  // Rojo para errores
         },
       },
+      scale: {
+        90: "0.9", // Tamaño reducido para las imágenes en el fondo
+      },
     },
   },
   plugins: [],

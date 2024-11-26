@@ -1,5 +1,5 @@
 
-import Experiencie from './components/Experiencie'
+import Projects from './components/Projects'
 import Header from './components/Header'
 import Presentation from './components/Presentation'
 
@@ -19,7 +19,7 @@ function App() {
         <div className='flex flex-col justify-center items-center h-full w-full pt-[72px] max-w-[800px] mx-2'>
 
           <Presentation></Presentation>
-          
+          <Projects></Projects>
 
 
         </div>

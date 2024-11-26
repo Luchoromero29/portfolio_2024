@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import Typography from "./Typography"
 
-const ItemEducation = ({ title, description, institution }) => {
+const ItemExperience = ({ title, description, institution }) => {
 
 
 
@@ -14,9 +14,9 @@ const ItemEducation = ({ title, description, institution }) => {
     )
 }
 
-export default ItemEducation
+export default ItemExperience
 
-ItemEducation.propTypes = {
+ItemExperience.propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
     institution: PropTypes.string,
