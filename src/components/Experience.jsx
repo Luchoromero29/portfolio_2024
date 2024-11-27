@@ -6,7 +6,7 @@ import TitleSection from "./TitleSection";
 const Experiencie = () => {
 
 
-    const weightLine = 1;
+    //const weightLine = 1;
     const { t } = useTranslation(["content"]);
 
     return (
