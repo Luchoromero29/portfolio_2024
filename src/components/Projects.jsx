@@ -15,7 +15,7 @@ const Projects = () => {
       ],
       name: "fitbyte",
       skills: [
-        { name: "React", img: "src/assets/icons/react.png" },
+        { name: "React", img: "/src/assets/icons/react.png" },
         { name: "Tailwind CSS", img: "src/assets/icons/tailwind.png" },
         { name: "Cloudinary", img: "src/assets/icons/cloudinary.png" },
         { name: "Typescript", img: "src/assets/icons/typescript.png" },
