@@ -23,7 +23,7 @@ export default {
           surface: '#ffffff',  // Para tarjetas o modales
           text: '#1f2937',  // Texto principal (negro oscuro)
           'text-muted': '#6b7280',  // Texto secundario/deshabilitado
-          border: '#e5e7eb',  // Bordes y líneas
+          border: '#80d4f0',  // Bordes y líneas
           success: '#16a34a',  // Verde para éxito
           warning: '#f59e0b',  // Amarillo para advertencias
           error: '#dc2626',  // Rojo para errores
