@@ -1,125 +1,71 @@
 import { useTranslation } from "react-i18next";
-import TitleSection from "./TitleSection"
+import TitleSection from "./TitleSection";
 import ItemProject from "./ItemProject";
 
-//imagenes fitbyte 
-import homeFitbyte from "../assets/imgs/fitbyte/home-fitbyte.png"
-import rutinaFitbyte from "../assets/imgs/fitbyte/rutina-fitbyte.png"
-import planFitbyte from "../assets/imgs/fitbyte/plan-fitbyte.png"
-
-//imagenes ubuntu
-import homeUbuntu from "../assets/imgs/ubuntu/ubuntu-home.png"
-import solicitudesUbuntu from "../assets/imgs/ubuntu/ubuntu-solicitudes.png"
-import microUbuntu from "../assets/imgs/ubuntu/ubuntu-microemprendimiento.png"
-
-//imagenes de a3
-import listaEquipos from "../assets/imgs/a3/lista-equipos.png"
-import infoPersona from "../assets/imgs/a3/info-persona.png"
-import formularioEquipo from "../assets/imgs/a3/formulario-equipo.png"
-
-//imagenes de skills
-import iconReact from "../assets/icons/react.png";
-import iconCloudinary from "../assets/icons/cloudinary.png";
-import iconJava from "../assets/icons/java.png";
-import iconJquery from "../assets/icons/jquery.png";
-import iconMysql from "../assets/icons/mysql.png";
-import iconNodejs from "../assets/icons/nodejs.png";
-import iconPhpDark from "../assets/icons/php-dark.png";
-import iconPhpLight from "../assets/icons/php-light.png";
-import iconTailwind from "../assets/icons/tailwind.png";
-import iconTypescript from "../assets/icons/typescript.png";
-import iconMaterialui from "../assets/icons/materialui.png";
-import iconJavascript from "../assets/icons/javascript.png";
-
-
-
-
 const Projects = () => {
-
   const { t } = useTranslation(["content"]);
 
   const projects = {
     fitbyte: {
       platform: "mobile",
-      images: [homeFitbyte, rutinaFitbyte, planFitbyte],
+      images: [
+        "src/assets/imgs/fitbyte/home-fitbyte.png",
+        "src/assets/imgs/fitbyte/rutina-fitbyte.png",
+        "src/assets/imgs/fitbyte/plan-fitbyte.png",
+      ],
       name: "fitbyte",
-      skills: [{
-        name: "React",
-        img: iconReact 
-      },{
-        name: "Tailwind CSS",
-        img: iconTailwind
-      },{
-        name: "Cloudinary",
-        img: iconCloudinary
-      },{
-        name: "Typescript",
-        img: iconTypescript
-      },{
-        name: "Node JS",
-        img: iconNodejs
-      },{
-        name: "MySQL",
-        img: iconMysql
-      }]
+      skills: [
+        { name: "React", img: "src/assets/icons/react.png" },
+        { name: "Tailwind CSS", img: "src/assets/icons/tailwind.png" },
+        { name: "Cloudinary", img: "src/assets/icons/cloudinary.png" },
+        { name: "Typescript", img: "src/assets/icons/typescript.png" },
+        { name: "Node JS", img: "src/assets/icons/nodejs.png" },
+        { name: "MySQL", img: "src/assets/icons/mysql.png" },
+      ],
     },
     ubuntu: {
       platform: "mobile",
-      images: [homeUbuntu, solicitudesUbuntu, microUbuntu],
+      images: [
+        "src/assets/imgs/ubuntu/ubuntu-home.png",
+        "src/assets/imgs/ubuntu/ubuntu-solicitudes.png",
+        "src/assets/imgs/ubuntu/ubuntu-microemprendimiento.png",
+      ],
       name: "ubuntu",
-      skills: [{
-        name: "React",
-        img: iconReact 
-      },{
-        name: "Cloudinary",
-        img: iconCloudinary
-      },{
-        name: "Java",
-        img: iconJava
-      },{
-        name: "MySQL",
-        img: iconMysql
-      },{
-        name: "Material UI",
-        img: iconMaterialui
-      }]
+      skills: [
+        { name: "React", img: "src/assets/icons/react.png" },
+        { name: "Cloudinary", img: "src/assets/icons/cloudinary.png" },
+        { name: "Java", img: "src/assets/icons/java.png" },
+        { name: "MySQL", img: "src/assets/icons/mysql.png" },
+        { name: "Material UI", img: "src/assets/icons/materialui.png" },
+      ],
     },
     a3: {
       platform: "desktop",
-      images: [infoPersona, formularioEquipo, listaEquipos],
+      images: [
+        "src/assets/imgs/a3/info-persona.png",
+        "src/assets/imgs/a3/formulario-equipo.png",
+        "src/assets/imgs/a3/lista-equipos.png",
+      ],
       name: "a3",
-      skills: [{
-        name: "Javascript",
-        img: iconJavascript
-      },{
-        name: "JQuery",
-        img: iconJquery
-      },{
-        name: "PHP",
-        img: iconPhpDark
-      },{
-        name: "Tailwind CSS",
-        img: iconTailwind
-      }]
-    }
-
-  }
+      skills: [
+        { name: "Javascript", img: "src/assets/icons/javascript.png" },
+        { name: "JQuery", img: "src/assets/icons/jquery.png" },
+        { name: "PHP", img: "src/assets/icons/php-dark.png" },
+        { name: "Tailwind CSS", img: "src/assets/icons/tailwind.png" },
+      ],
+    },
+  };
 
   return (
     <div className="w-full dark:text-white">
-        <TitleSection title={t("projects.title")} />
-        
-        <main className="py-10 flex flex-col gap-5">  
-
-          <ItemProject project={projects.fitbyte}/>
-          <ItemProject project={projects.ubuntu}/>
-          <ItemProject project={projects.a3}/>
-
-
-        </main>
-
+      <TitleSection title={t("projects.title")} />
+      <main className="py-10 flex flex-col gap-5">
+        <ItemProject project={projects.fitbyte} />
+        <ItemProject project={projects.ubuntu} />
+        <ItemProject project={projects.a3} />
+      </main>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

@@ -3,7 +3,6 @@ import Typography from "./Typography"
 
 
 const ItemSkill = ({img, name}) => {
-    console.log(img, name);
     
   return (
     <div className="rounded-full p-2 border-2 border-dark-secondary w-fit">

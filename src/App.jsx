@@ -1,7 +1,7 @@
 
-import Header from './components/Header'
-import Presentation from './components/Presentation'
-import Projects from './components/Projects'
+import Header from './components/Header.jsx'
+import Presentation from './components/Presentation.jsx'
+import Projects from './components/Projects.jsx'
 
 //estilos
 import './Style.css'
