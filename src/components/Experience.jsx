@@ -6,7 +6,7 @@ import TitleSection from "./TitleSection";
 const Experiencie = () => {
 
 
-
+    const weightLine = 1;
     const { t } = useTranslation(["content"]);
 
     return (
@@ -38,12 +38,12 @@ const Experiencie = () => {
 
             <section className="flex justify-center items-center flex-col px-8 sm:hidden">
                 <div className="flex items-center justify-end w-full">
-                    <div className="w-2 h-6 line-education-color line-education-color"></div>
+                    <div className={`w-${weightLine} h-6 line-education-color line-education-color`}></div>
                 </div>
-                <div className="w-full h-2 rounded-tl-md rounded-br-md line-education-color line-education-color">
+                <div className={`w-full h-${weightLine}  rounded-tl-md rounded-br-md line-education-color line-education-color`}>
                 </div>
                 <div className="flex items-center justify-start w-full">
-                    <div className="w-2 h-6 line-education-color line-education-color"></div>
+                    <div className={`w-${weightLine}  h-6 line-education-color line-education-color`}></div>
                 </div>
             </section>
 
@@ -70,12 +70,12 @@ const Experiencie = () => {
 
             <section className="flex justify-center items-center flex-col px-8 sm:hidden">
                 <div className="flex items-center justify-start w-full">
-                    <div className="w-2 h-6 line-education-color line-education-color"></div>
+                    <div className={`w-${weightLine}  h-6 line-education-color line-education-color`}></div>
                 </div>
-                <div className="w-full h-2 rounded-bl-md rounded-tr-md line-education-color line-education-color">
+                <div className={`w-full h-${weightLine}  rounded-bl-md rounded-tr-md line-education-color line-education-color`}>
                 </div>
                 <div className="flex items-center justify-end w-full">
-                    <div className="w-2 h-6 line-education-color line-education-color"></div>
+                    <div className={`w-${weightLine}  h-6 line-education-color line-education-color`}></div>
                 </div>
             </section>
 
@@ -108,12 +108,12 @@ const Experiencie = () => {
 
             <section className="flex justify-center items-center flex-col px-8 sm:hidden">
                 <div className="flex items-center justify-end w-full">
-                    <div className="w-2 h-6 line-education-color line-education-color"></div>
+                    <div className={`w-${weightLine} h-6 line-education-color line-education-color`}></div>
                 </div>
-                <div className="w-full h-2 rounded-tl-md rounded-br-md line-education-color line-education-color">
+                <div className={`w-full h-${weightLine}  rounded-tl-md rounded-br-md line-education-color line-education-color`}>
                 </div>
                 <div className="flex items-center justify-start w-full">
-                    <div className="w-2 h-6 line-education-color line-education-color"></div>
+                    <div className={`w-${weightLine}  h-6 line-education-color line-education-color`}></div>
                 </div>
             </section>
 
