@@ -61,10 +61,27 @@ const Header = () => {
     });
   }, []);
 
+
+  const handleScroll = (e) => {
+    e.preventDefault();
+
+    console.log(e.target.closest('a').getAttribute('href').substring(1))
+    
+    const targetId = e.target.closest('a').getAttribute('href').substring(1);
+
+    const targetElement = document.getElementById(targetId);
+    const offsetTop = targetElement.offsetTop;
+
+    window.scrollTo({
+      top: offsetTop - 200, // Ajuste para dejar espacio en la parte superior (por ejemplo, 60px)
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <header
       className="fixed w-full h-18 bg-light-primary/50 flex justify-center items-center border-b-[1px] border-gray-300
-    dark:bg-dark-primary/60 backdrop-blur-sm dark:border-gray-700 z-full"
+    dark:bg-dark-primary/60 backdrop-blur-sm dark:border-gray-700 z-full top-0"
     >
       <div className="py-4 px-2 w-[800px] flex justify-between items-center font-nunito text-3xl dark:text-white">
         <div className="flex items-center gap-2">
@@ -85,31 +102,31 @@ const Header = () => {
           <nav id="nav-menu">
             <ul className="flex items-center justify-center [&>li>a]:inline-block [&>li>a]:px-2 text-nowrap">
               <li className="relative cursor-pointer header-element">
-                <a>
+                <a href="#aboutme" onClick={handleScroll}>
                   <Typography variant="h4">{t("navbar.about")}</Typography>
                   <span className="underline"></span>
                 </a>
               </li>
               <li className="relative cursor-pointer header-element">
-                <a>
+                <a href="#experience" onClick={handleScroll}>
                   <Typography variant="h4">{t("navbar.experience")}</Typography>
                   <span className="underline"></span>
                 </a>
               </li>
               <li className="relative cursor-pointer header-element">
-                <a>
+                <a href="#projects" onClick={handleScroll}>
                   <Typography variant="h4">{t("navbar.projects")}</Typography>
                   <span className="underline"></span>
                 </a>
               </li>
               <li className="relative cursor-pointer header-element">
-                <a>
+                <a href="#skills" onClick={handleScroll}>
                   <Typography variant="h4">{t("navbar.skills")}</Typography>
                   <span className="underline"></span>
                 </a>
               </li>
               <li className="relative cursor-pointer header-element">
-                <a>
+                <a href="#contact" onClick={handleScroll}>
                   <Typography variant="h4">{t("navbar.contact")}</Typography>
                   <span className="underline"></span>
                 </a>
@@ -122,23 +139,23 @@ const Header = () => {
       {/* Menú móvil desplegable */}
       {isMobileMenuOpen && (
         <div className="fixed top-[70px] w-full dark:text-white bg-light-primary/90 dark:bg-dark-primary/90 backdrop-blur-sm dark:border-gray-700 text-center z-50">
-            <ul className="flex flex-col items-center gap-4 py-4">
-              <li className="cursor-pointer">
-                <a>{t("navbar.about")}</a>
-              </li>
-              <li className="cursor-pointer">
-                <a>{t("navbar.experience")}</a>
-              </li>
-              <li className="cursor-pointer">
-                <a>{t("navbar.projects")}</a>
-              </li>
-              <li className="cursor-pointer">
-                <a>{t("navbar.skills")}</a>
-              </li>
-              <li className="cursor-pointer">
-                <a>{t("navbar.contact")}</a>
-              </li>
-            </ul>
+          <ul className="flex flex-col items-center gap-4 py-4">
+            <li className="cursor-pointer">
+              <a>{t("navbar.about")}</a>
+            </li>
+            <li className="cursor-pointer">
+              <a>{t("navbar.experience")}</a>
+            </li>
+            <li className="cursor-pointer">
+              <a>{t("navbar.projects")}</a>
+            </li>
+            <li className="cursor-pointer">
+              <a>{t("navbar.skills")}</a>
+            </li>
+            <li className="cursor-pointer">
+              <a>{t("navbar.contact")}</a>
+            </li>
+          </ul>
         </div>
       )}
 

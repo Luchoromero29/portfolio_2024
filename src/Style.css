@@ -9,6 +9,10 @@
     
 }   
 
+html {
+    scroll-behavior: smooth;
+  }
+
 #prueba-de-color{
     color: #272727;
 }
@@ -131,4 +135,5 @@
     width: 100%;
     margin: 60px 0
 }
+
 

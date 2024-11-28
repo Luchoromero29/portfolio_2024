@@ -105,14 +105,14 @@ const Projects = () => {
   }
 
   return (
-    <div className="w-full dark:text-white">
+    <section id="projects" className="w-full dark:text-white">
         <TitleSection title={t("projects.title")} />
         <main className="py-10 flex flex-col gap-5">  
           <ItemProject project={projects.fitbyte}/>
           <ItemProject project={projects.ubuntu}/>
           <ItemProject project={projects.a3}/>
         </main>
-    </div>
+    </section>
   )
 }
 

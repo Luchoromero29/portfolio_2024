@@ -17,7 +17,7 @@ const Experiencie = () => {
     }
 
     return (
-        <div className='flex  flex-col relative' >
+        <section id="experience" className='flex  flex-col relative' >
             <header className='dark:text-white w-full text-center '>
                 <TitleSection title={t("education.title")} />
             </header>
@@ -161,15 +161,15 @@ const Experiencie = () => {
             <section
                 className={`dark:text-white flex justify-center items-center h-16 
                             bg-gradient-blur backdrop-blur-sm absolute bottom-[-10px] w-full
-                            bg-gradient-to-b from-transparent to-primary/60 dark:to-black/20
-                            ${viewMore ? 'hidden' : ''}
+                            bg-gradient-to-b from-transparent to-primary/60 dark:to-dark-primary
+                            ${viewMore ? 'hidden' : ''} border-t-2 border-primary
                         `}
             >
                 <button onClick={handleViewMore} className="">
-                    <Typography variant="h4">Ver más</Typography>
+                    <Typography variant="h4">{t("viewmore")}</Typography>
                 </button>
             </section>
-        </div>
+        </section>
     )
 }
 

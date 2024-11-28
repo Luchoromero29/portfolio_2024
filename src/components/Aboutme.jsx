@@ -10,7 +10,7 @@ const Aboutme = () => {
     const { t } = useTranslation(["content"]);
 
     return (
-        <div className="relative flex items-center justify-center gap-10 md:flex-row flex-col">
+        <section id="aboutme" className="relative flex items-center justify-center gap-10 md:flex-row flex-col">
             <div className='dark:text-white flex flex-col  h-full gap-5' >
                 <div className='flex justify-center items-center text-wrap h-[170px] md:justify-start'>
                     <ReactTypingEffect
@@ -31,7 +31,7 @@ const Aboutme = () => {
                     className="w-full h-full object-cover max-w-[350px]"
                 />
             </div>
-        </div>
+        </section>
     )
 }
 

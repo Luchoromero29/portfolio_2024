@@ -58,5 +58,19 @@
             "title": "Fitbyte+",
             "description": "Fitbyte is a personal project aimed at tracking gym routines, statistics, timings, and workouts. I use ReactJS with TailwindCSS for the frontend, Cloudinary for image management, and NodeJS with MySQL for the backend."
         }
+    },
+    "viewmore": "View more",
+    "contact": {
+        "title": "Contact",
+        "description": "Thank you for taking the time to explore my portfolio! If you have any questions, want to collaborate, or simply wish to get in touch, feel free to do so through any of the available channels. I am always open to hearing new ideas, resolving doubts, or just exchanging thoughts. You can email me directly, connect with me on LinkedIn, or visit my GitHub profile for more information about my projects. I’ll be happy to respond as soon as possible.",
+        "linkedin": "Personal LinkedIn",
+        "github": "Personal GitHub",
+        "gmail": "Contact Email"
+    },
+    "copyEmail": "Mail copied!",
+    "footer": {
+        "title": "Luciano Romero - Developer",
+        "linksSite": "This site",
+        "linksSocial": "Social networks"
     }
 }

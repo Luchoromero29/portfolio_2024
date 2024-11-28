@@ -1,0 +1,16 @@
+@keyframes slideUp {
+    0% {
+      transform: translate(-50%, 100%); /* Comienza fuera de la pantalla */
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-50%, 0); /* Finaliza en su posición final */
+      opacity: 1;
+    }
+  }
+
+  
+  /* Añadimos las animaciones */
+  .animate-slideUp {
+    animation: slideUp 0.5s ease-out forwards;
+  }
