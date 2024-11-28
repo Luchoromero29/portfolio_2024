@@ -26,7 +26,7 @@ const ItemProject = ({ project }) => {
     }, [images.length]);
 
     return (
-        <div className="dark:text-white p-4 border-2 rounded-lg border-secondary relative z-50 overflow-hidden">
+        <div className="dark:text-white p-4 border-0 rounded-lg border-secondary relative z-50 overflow-hidden">
             <header className="z-50">
                 <Typography variant="title-project">{title}</Typography>
             </header>
@@ -35,7 +35,7 @@ const ItemProject = ({ project }) => {
                     <Typography variant="span">{description}</Typography>
                     <div className="flex gap-2 flex-wrap">
                         {skills.map((skill, index) => (
-                            <ItemSkill name={skill.name} img={skill.img} key={index} />
+                            <ItemSkill name={skill.name} img={skill.image} key={index} />
                         ))}
                     </div>
                 </div>

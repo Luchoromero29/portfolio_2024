@@ -1,58 +1,107 @@
 [
-    {
-      "name": "React",
-      "number": 1,
-      "image": "/assets/icons/react.png"
-    },
-    {
-      "name": "Cloudinary",
-      "number": 2,
-      "image": "../assets/icons/cloudinary.png"
-    },
-    {
-      "name": "Java",
-      "number": 3,
-      "image": "../assets/icons/java.png"
-    },
-    {
-      "name": "JQuery",
-      "number": 4,
-      "image": "../assets/icons/jquery.png"
-    },
-    {
-      "name": "MySQL",
-      "number": 5,
-      "image": "../assets/icons/mysql.png"
-    },
-    {
-      "name": "NodeJS",
-      "number": 6,
-      "image": "../assets/icons/nodejs.png"
-    },
-    {
-      "name": "PHP",
-      "number": 7,
-      "image": "../assets/icons/php.png"
-    },
-    {
-      "name": "Tailwind",
-      "number": 8,
-      "image": "../assets/icons/tailwind.png"
-    },
-    {
-      "name": "TypeScript",
-      "number": 9,
-      "image": "../assets/icons/typescript.png"
-    },
-    {
-      "name": "Material UI",
-      "number": 10,
-      "image": "../assets/icons/materialui.png"
-    },
-    {
-      "name": "JavaScript",
-      "number": 11,
-      "image": "../assets/icons/javascript.png"
-    }
-  ]
-  
+  {
+    "name": "React JS",
+    "number": 1,
+    "image": "/assets/icons/react.png"
+  },
+  {
+    "name": "Cloudinary",
+    "number": 2,
+    "image": "/assets/icons/cloudinary.png"
+  },
+  {
+    "name": "Java",
+    "number": 3,
+    "image": "/assets/icons/java.png"
+  },
+  {
+    "name": "JQuery",
+    "number": 4,
+    "image": "/assets/icons/jquery.png"
+  },
+  {
+    "name": "MySQL",
+    "number": 5,
+    "image": "/assets/icons/mysql.png"
+  },
+  {
+    "name": "NodeJS",
+    "number": 6,
+    "image": "/assets/icons/nodejs.png"
+  },
+  {
+    "name": "PHP",
+    "number": 7,
+    "image": "/assets/icons/php.png"
+  },
+  {
+    "name": "Tailwind",
+    "number": 8,
+    "image": "/assets/icons/tailwind.png"
+  },
+  {
+    "name": "TypeScript",
+    "number": 9,
+    "image": "/assets/icons/typescript.png"
+  },
+  {
+    "name": "Material UI",
+    "number": 10,
+    "image": "/assets/icons/materialui.png"
+  },
+  {
+    "name": "JavaScript",
+    "number": 11,
+    "image": "/assets/icons/javascript.png"
+  },
+  {
+    "name": "CSS",
+    "number": 12,
+    "image": "/assets/icons/css.png"
+  },
+  {
+    "name": "HTML",
+    "number": 13,
+    "image": "/assets/icons/html.png"
+  },
+  {
+    "name": "ThymeLeaf",
+    "number": 14,
+    "image": "/assets/icons/thymeleaf.png"
+  },
+  {
+    "name": "Spring Boot",
+    "number": 15,
+    "image": "/assets/icons/springboot.png"
+  },
+  {
+    "name": "Sequelize",
+    "number": 16,
+    "image": "/assets/icons/sequelize.png"
+  },
+  {
+    "name": "Postman",
+    "number": 17,
+    "image": "/assets/icons/postman.png"
+  },
+  {
+    "name": "Git",
+    "number": 17,
+    "image": "/assets/icons/git.png"
+  },
+  {
+    "name": "Github",
+    "number": 18,
+    "image": "/assets/icons/github.png"
+  },
+  {
+    "name": "Unity",
+    "number": 19,
+    "image": "/assets/icons/unity.png"
+  },
+  {
+    "name": "Autocad",
+    "number": 20,
+    "image": "/assets/icons/autocad.png"
+  }
+]

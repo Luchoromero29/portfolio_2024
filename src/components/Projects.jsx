@@ -17,18 +17,9 @@ import listaEquipos from "/assets/imgs/a3/lista-equipos.png"
 import infoPersona from "/assets/imgs/a3/info-persona.png"
 import formularioEquipo from "/assets/imgs/a3/formulario-equipo.png"
 
-//imagenes de skills
-import iconReact from "/assets/icons/react.png";
-import iconCloudinary from "/assets/icons/cloudinary.png";
-import iconJava from "/assets/icons/java.png";
-import iconJquery from "/assets/icons/jquery.png";
-import iconMysql from "/assets/icons/mysql.png";
-import iconNodejs from "/assets/icons/nodejs.png";
-import iconPhp from "/assets/icons/php.png";
-import iconTailwind from "/assets/icons/tailwind.png";
-import iconTypescript from "/assets/icons/typescript.png";
-import iconMaterialui from "/assets/icons/materialui.png";
-import iconJavascript from "/assets/icons/javascript.png";
+//json de skills
+import jsonSkills from "../data/skills.json"
+
 
 
 
@@ -36,70 +27,27 @@ import iconJavascript from "/assets/icons/javascript.png";
 const Projects = () => {
 
   const { t } = useTranslation(["content"]);
-
+  const skills = jsonSkills;
+  const [react, cloudinary, java, jquery, mysql, nodejs, php, tailwind, typescript, 
+    materialui, javascript ] = skills;
   const projects = {
     fitbyte: {
       platform: "mobile",
       images: [homeFitbyte, rutinaFitbyte, planFitbyte],
       name: "fitbyte",
-      skills: [{
-        name: "React",
-        img: iconReact 
-      },{
-        name: "Tailwind CSS",
-        img: iconTailwind
-      },{
-        name: "Cloudinary",
-        img: iconCloudinary
-      },{
-        name: "Typescript",
-        img: iconTypescript
-      },{
-        name: "Node JS",
-        img: iconNodejs
-      },{
-        name: "MySQL",
-        img: iconMysql
-      }]
+      skills: [react, tailwind, cloudinary, typescript, nodejs, mysql]
     },
     ubuntu: {
       platform: "mobile",
       images: [homeUbuntu, solicitudesUbuntu, microUbuntu],
       name: "ubuntu",
-      skills: [{
-        name: "React",
-        img: iconReact 
-      },{
-        name: "Cloudinary",
-        img: iconCloudinary
-      },{
-        name: "Java",
-        img: iconJava
-      },{
-        name: "MySQL",
-        img: iconMysql
-      },{
-        name: "Material UI",
-        img: iconMaterialui
-      }]
+      skills: [react, cloudinary, java, mysql, materialui]
     },
     a3: {
       platform: "desktop",
       images: [infoPersona, formularioEquipo, listaEquipos],
       name: "a3",
-      skills: [{
-        name: "Javascript",
-        img: iconJavascript
-      },{
-        name: "JQuery",
-        img: iconJquery
-      },{
-        name: "PHP",
-        img: iconPhp
-      },{
-        name: "Tailwind CSS",
-        img: iconTailwind
-      }]
+      skills: [javascript, jquery, php, tailwind]
     }
 
   }
