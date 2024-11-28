@@ -25,7 +25,7 @@ const Skills = () => {
         <TitleSection title={t("skills.title")} />
         <main className="flex flex-col gap-10">
           <div>
-            <Typography variant="h4">Frontend</Typography>
+            <Typography variant="h4">{t("skills.frontend")}</Typography>
             <div className="grid sm:grid-cols-4 sm:grid-rows-3 grid-cols-3 grid-rows-4 gap-2 ">
               <div className="sm:col-span-1 sm:row-span-2 col-span-1 row-span-2">
                 <ItemSkillVento name={javascript.name} img={javascript.image} />
@@ -56,7 +56,7 @@ const Skills = () => {
 
 
           <div>
-            <Typography variant="h4">Backend</Typography>
+            <Typography variant="h4">{t("skills.backend")}</Typography>
             <div className="grid grid-cols-3 grid-rows-3 gap-2 ">
               <div className="col-span-1 row-span-2">
                 <ItemSkillVento name={java.name} img={java.image} />
@@ -81,7 +81,7 @@ const Skills = () => {
 
 
           <div>
-            <Typography variant="h4">Herramientas</Typography>
+            <Typography variant="h4">{t("skills.tools")}</Typography>
             <div className="grid grid-cols-3 grid-rows-3 gap-2 ">
               <div className="col-span-1 row-span-1">
                 <ItemSkillVento name={cloudinary.name} img={cloudinary.image} />

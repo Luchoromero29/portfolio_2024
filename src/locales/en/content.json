@@ -74,6 +74,9 @@
         "linksSocial": "Social networks"
     },
     "skills": {
-        "title": "Skills"
+        "title": "Skills",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Tools"
     }
 }
