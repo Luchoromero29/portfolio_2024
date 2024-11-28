@@ -12,10 +12,10 @@ import { useTranslation } from "react-i18next";
 import ButtonLanguage from "./ButtonLanguage";
 
 //assets
-import listDark from "../assets/icons/list-dark.png";
-import listLight from "../assets/icons/list-light.png";
-import closeDark from "../assets/icons/close-dark.png";
-import closeLight from "../assets/icons/close-light.png";
+import listDark from "/assets/icons/list-dark.png";
+import listLight from "/assets/icons/list-light.png";
+import closeDark from "/assets/icons/close-dark.png";
+import closeLight from "/assets/icons/close-light.png";
 
 const Header = () => {
 

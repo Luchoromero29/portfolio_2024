@@ -2,7 +2,7 @@
     {
       "name": "React",
       "number": 1,
-      "image": "src/assets/icons/react.png"
+      "image": "/assets/icons/react.png"
     },
     {
       "name": "Cloudinary",

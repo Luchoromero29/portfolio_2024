@@ -5,11 +5,11 @@ import Typography from "./Typography"
 import "../styles/ContactStyle.css"
 
 //imagenes
-import iconLinkedin from "../assets/icons/linkedin.png"
-import iconGmail from "../assets/icons/gmail.png"
-import iconGithubDark from "../assets/icons/github-dark.png"
-import iconGithubLight from "../assets/icons/github-light.png"
-import iconCheckLight from "../assets/icons/check-light.png"
+import iconLinkedin from "/assets/icons/linkedin.png"
+import iconGmail from "/assets/icons/gmail.png"
+import iconGithubDark from "/assets/icons/github-dark.png"
+import iconGithubLight from "/assets/icons/github-light.png"
+import iconCheckLight from "/assets/icons/check-light.png"
 
 //componentes
 import ButtonLink from "./ButtonLink";

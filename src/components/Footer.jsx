@@ -1,7 +1,7 @@
 import Typography from "./Typography"
 
 //imagenes
-import logoLr from "../assets/imgs/logo-lr.png"
+import logoLr from "/assets/imgs/logo-lr.png"
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {

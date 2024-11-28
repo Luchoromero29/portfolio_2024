@@ -2,8 +2,8 @@
 import { useTranslation } from 'react-i18next';
 
 //icons
-import language_dark from "../assets/icons/language-dark.png"
-import language_light from "../assets/icons/language-light.png"
+import language_dark from "/assets/icons/language-dark.png"
+import language_light from "/assets/icons/language-light.png"
 const ButtonLanguage = () => {
 
     const { i18n } = useTranslation();

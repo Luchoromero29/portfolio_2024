@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 
 //Icons
-import sunIcon from "../assets/icons/sun.png";
-import moonIcon from "../assets/icons/moon-dark.png";
+import sunIcon from "/assets/icons/sun.png";
+import moonIcon from "/assets/icons/moon-dark.png";
 
 
 const ButtonTheme = () => {

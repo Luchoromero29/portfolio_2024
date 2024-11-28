@@ -2,7 +2,7 @@ import ReactTypingEffect from "react-typing-effect"
 import Typography from "./Typography"
 
 //imagenes
-import imagenPerfil from '../assets/imgs/foto-perfil.png'
+import imagenPerfil from '/assets/imgs/foto-perfil.png'
 import { useTranslation } from "react-i18next";
 
 const Aboutme = () => {
