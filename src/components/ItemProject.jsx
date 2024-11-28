@@ -5,10 +5,13 @@ import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import ItemSkill from "./ItemSkill";
 
+import "../styles/ProjectStyle.css";
+
 const ItemProject = ({ project }) => {
     const { t } = useTranslation(["content"]);
 
     const title = t(`projects.${project.name}.title`);
+    const description = t(`projects.${project.name}.description`);
     const images = project.images;
     const skills = project.skills;
 
@@ -23,13 +26,13 @@ const ItemProject = ({ project }) => {
     }, [images.length]);
 
     return (
-        <div className="dark:text-white p-4 border-2 rounded-lg border-light-border">
-            <header>
+        <div className="dark:text-white p-4 border-2 rounded-lg border-secondary relative z-50 overflow-hidden">
+            <header className="z-50">
                 <Typography variant="title-project">{title}</Typography>
             </header>
-            <main className="flex flex-col sm:flex-row sm:gap-5 gap-5 items-center relative min-h-[440px]">
+            <main className="flex flex-col sm:flex-row sm:gap-5 gap-5 items-center relative min-h-[440px] z-50">
                 <div className="sm:w-full flex-grow sm:h-full items-center flex flex-col justify-center gap-4">
-                    <Typography variant="span">{t("projects.fitbyte.description")}</Typography>
+                    <Typography variant="span">{description}</Typography>
                     <div className="flex gap-2 flex-wrap">
                         {skills.map((skill, index) => (
                             <ItemSkill name={skill.name} img={skill.img} key={index} />
@@ -37,7 +40,7 @@ const ItemProject = ({ project }) => {
                     </div>
                 </div>
 
-                <div className=" items-center justify-center relative w-[450px]">
+                <div className=" items-center justify-center relative w-full">
                     <div className="relative w-full h-[400px] sm:h-[450px] flex justify-center items-center">
                         {images.map((image, index) => (
                             <img
@@ -61,6 +64,9 @@ const ItemProject = ({ project }) => {
             <footer>
                 {/* Aquí puedes agregar más contenido si es necesario */}
             </footer>
+            <div className="absolute h-[300px] w-[300px] rounded-full  top-[30%] right-[30%] z-10 bg-gradient-radial">
+                
+            </div>
         </div>
     );
 };

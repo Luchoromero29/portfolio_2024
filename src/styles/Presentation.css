@@ -34,15 +34,15 @@
   }
 
 .background-image{
-    background-image: radial-gradient( circle 311px at 5.6% 17.9%,  rgba(62,147,252,0.57) 13.9%, rgba(239,183,192,0.44) 91.2% );
+    background-image: radial-gradient( circle 311px at 5.6% 17.9%,  var(--primary-color) 13.9%, var(--secondary-color) 91.2% );
 }
 
 /* Estilos de texto de titulos de simulacion de tipeo */
 .gradient-text {
   background-image: linear-gradient(
     90deg, /* Dirección horizontal */
-    rgba(173, 216, 230, 1) 0%,   /* Celeste claro */
-    rgba(245, 167, 179, 0.897) 50%, /* Rosado claro */
+    var(--primary-color),   /* Celeste claro */
+    var(--secondary-color) 50%, /* Rosado claro */
     rgba(255, 255, 255, 0.8) 100% /* Blanco suave */
   );
   -webkit-background-clip: text;
@@ -78,10 +78,10 @@ Estilos de seccion de Estudios */
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background-color: rgb(173, 216, 230);
+  background-color: var(--primary-color);
   color: rgb(46, 46, 46);
   font-weight: bold;
-  box-shadow: 0 0 2px 1px rgb(173, 216, 230);
+  box-shadow: 0 0 2px 1px var(--primary-color);
 }
 
 
@@ -95,10 +95,11 @@ Estilos de seccion de Estudios */
 }
 
 .line-education-color{
-  box-shadow: 0 0 1px 1px   rgb(173, 216, 230);
-  background-color: rgb(173, 216, 230);
+  box-shadow: 0 0 1px 1px   var(--primary-color);
+  background-color: var(--primary-color);
   
 }
+
 /*
 
 

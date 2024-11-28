@@ -16,7 +16,7 @@ function App() {
       <div className='h-full dark:bg-dark-primary w-full flex justify-center'>
         <Header></Header>
 
-        <div className='flex flex-col justify-center items-center h-full w-full pt-[72px] max-w-[800px] mx-2'>
+        <div className='flex flex-col justify-center items-center h-full w-fullpt-[72px] max-w-[800px] mx-2 gap-[200px]'>
 
           <Presentation></Presentation>
           <Projects></Projects>

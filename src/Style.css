@@ -13,6 +13,16 @@
     color: #272727;
 }
 
+/* Variables de colores */
+
+:root{
+    --primary-color: #cdffd8;
+    --secondary-color: #94b9ff;  
+    --background-color: #f0ffff;  
+    --border-color: #80d4f0;
+}
+
+
 /* Cargo las fuentes del proyecto*/
 
 @font-face {

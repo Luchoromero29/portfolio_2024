@@ -64,7 +64,7 @@ const Header = () => {
   return (
     <header
       className="fixed w-full h-18 bg-light-primary/50 flex justify-center items-center border-b-[1px] border-gray-300
-    dark:bg-dark-primary/60 backdrop-blur-sm dark:border-gray-700 z-50"
+    dark:bg-dark-primary/60 backdrop-blur-sm dark:border-gray-700 z-full"
     >
       <div className="py-4 px-2 w-[800px] flex justify-between items-center font-nunito text-3xl dark:text-white">
         <div className="flex items-center gap-2">

@@ -24,7 +24,7 @@ import iconJava from "../assets/icons/java.png";
 import iconJquery from "../assets/icons/jquery.png";
 import iconMysql from "../assets/icons/mysql.png";
 import iconNodejs from "../assets/icons/nodejs.png";
-import iconPhpDark from "../assets/icons/php-dark.png";
+import iconPhp from "../assets/icons/php.png";
 import iconTailwind from "../assets/icons/tailwind.png";
 import iconTypescript from "../assets/icons/typescript.png";
 import iconMaterialui from "../assets/icons/materialui.png";
@@ -95,7 +95,7 @@ const Projects = () => {
         img: iconJquery
       },{
         name: "PHP",
-        img: iconPhpDark
+        img: iconPhp
       },{
         name: "Tailwind CSS",
         img: iconTailwind

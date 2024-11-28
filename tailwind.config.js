@@ -17,33 +17,33 @@ export default {
       },
       colors: {
         light: {
-          primary: '#f0f8ff',  // Azul fuerte para el tema claro
-          secondary: '#f6feff',  // Gris oscuro para texto secundario
-          background: '#f0ffff',  // Fondo claro
-          surface: '#ffffff',  // Para tarjetas o modales
-          text: '#1f2937',  // Texto principal (negro oscuro)
-          'text-muted': '#6b7280',  // Texto secundario/deshabilitado
-          border: '#80d4f0',  // Bordes y líneas
-          success: '#16a34a',  // Verde para éxito
-          warning: '#f59e0b',  // Amarillo para advertencias
-          error: '#dc2626',  // Rojo para errores
+          primary: '#f0f8ff',  
+          secondary: '#f6feff',  
+          background: '#f0ffff',  
+          border: '#80d4f0',  
         },
         dark: {
-          primary: '#18181a',  // Azul claro para contraste en tema oscuro
-          secondary: '#292929',  // Gris claro para texto secundario
-          background: '#1e293b',  // Fondo oscuro
-          surface: '#111827',  // Para tarjetas o modales
-          text: '#f1f5f9',  // Texto principal (blanco claro)
-          'text-muted': '#9ca3af',  // Texto secundario/deshabilitado
-          border: '#374151',  // Bordes y líneas
-          success: '#22c55e',  // Verde para éxito
-          warning: '#facc15',  // Amarillo para advertencias
-          error: '#ef4444',  // Rojo para errores
+          primary: '#18181a',  
+          secondary: '#292929',  
+          background: '#1e293b',  
+          surface: '#111827',  
+          border: '#374151',  
         },
+        primary: '#cdffd8',
+        secondary: '#94b9ff'
       },
       scale: {
         90: "0.9", // Tamaño reducido para las imágenes en el fondo
       },
+      backdropBlur: {
+        xs: '2px',
+        sm: '4px',
+        md: '8px',
+        lg: '16px',
+      },
+      zIndex: {
+        full: '99999'
+      }
     },
   },
   plugins: [],

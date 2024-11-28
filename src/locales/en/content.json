@@ -10,7 +10,7 @@
     "title": "Software developer",
     "welcome": "Welcome to my portfolio",
     "education": {
-        "title": "Experiencia",
+        "title": "Experience",
         "fullstack-java-course": {
             "title": "Java Full Stack Developer Course",
             "description": "I started my programming journey with an intensive Java Full Stack Developer course, where I completed over 500 hours in 6 months. I learned Spring Boot, MySQL, Bootstrap, HTML, and CSS, developing full applications from backend to frontend.",
