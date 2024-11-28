@@ -72,5 +72,11 @@
         "title": "Luciano Romero - Desarrollador",
         "linksSite": "Este sitio",
         "linksSocial": "Redes sociales"
+    },
+    "skills": {
+        "title": "Habilidades",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Herramientas"
     }
 }

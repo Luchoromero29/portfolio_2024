@@ -1,0 +1,58 @@
+[
+    {
+      "name": "React",
+      "number": 1,
+      "image": "src/assets/icons/react.png"
+    },
+    {
+      "name": "Cloudinary",
+      "number": 2,
+      "image": "../assets/icons/cloudinary.png"
+    },
+    {
+      "name": "Java",
+      "number": 3,
+      "image": "../assets/icons/java.png"
+    },
+    {
+      "name": "JQuery",
+      "number": 4,
+      "image": "../assets/icons/jquery.png"
+    },
+    {
+      "name": "MySQL",
+      "number": 5,
+      "image": "../assets/icons/mysql.png"
+    },
+    {
+      "name": "NodeJS",
+      "number": 6,
+      "image": "../assets/icons/nodejs.png"
+    },
+    {
+      "name": "PHP",
+      "number": 7,
+      "image": "../assets/icons/php.png"
+    },
+    {
+      "name": "Tailwind",
+      "number": 8,
+      "image": "../assets/icons/tailwind.png"
+    },
+    {
+      "name": "TypeScript",
+      "number": 9,
+      "image": "../assets/icons/typescript.png"
+    },
+    {
+      "name": "Material UI",
+      "number": 10,
+      "image": "../assets/icons/materialui.png"
+    },
+    {
+      "name": "JavaScript",
+      "number": 11,
+      "image": "../assets/icons/javascript.png"
+    }
+  ]
+  

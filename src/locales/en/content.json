@@ -72,5 +72,8 @@
         "title": "Luciano Romero - Developer",
         "linksSite": "This site",
         "linksSocial": "Social networks"
+    },
+    "skills": {
+        "title": "Skills"
     }
 }

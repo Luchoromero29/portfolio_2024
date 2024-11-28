@@ -4,6 +4,7 @@ import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
 import Presentation from './components/Presentation.jsx'
 import Projects from './components/Projects.jsx'
+import Skills from './components/Skills.jsx'
 
 //estilos
 import './Style.css'
@@ -22,6 +23,7 @@ function App() {
 
           <Presentation />
           <Projects />
+          <Skills />
           <Contact />
 
         </div>

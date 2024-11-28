@@ -4,7 +4,7 @@ import Typography from "./Typography"
 
 const TitleSection = ({title}) => {
   return (
-    <div className="w-full flex justify-center items-center">
+    <div className="w-full flex justify-center items-center dark:text-white">
         <Typography variant="h2">{title}</Typography>
     </div>
   )
