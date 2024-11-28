@@ -64,9 +64,9 @@ const Header = () => {
 
   const handleScroll = (e) => {
     e.preventDefault();
-
+    setIsMobileMenuOpen(false);
     console.log(e.target.closest('a').getAttribute('href').substring(1))
-    
+
     const targetId = e.target.closest('a').getAttribute('href').substring(1);
 
     const targetElement = document.getElementById(targetId);
@@ -141,20 +141,31 @@ const Header = () => {
         <div className="fixed top-[70px] w-full dark:text-white bg-light-primary/90 dark:bg-dark-primary/90 backdrop-blur-sm dark:border-gray-700 text-center z-50">
           <ul className="flex flex-col items-center gap-4 py-4">
             <li className="cursor-pointer">
-              <a>{t("navbar.about")}</a>
+              <a href="#aboutme" onClick={handleScroll}>
+                <Typography variant="h4">{t("navbar.about")}</Typography>
+              </a>
             </li>
             <li className="cursor-pointer">
-              <a>{t("navbar.experience")}</a>
+              <a href="#experience" onClick={handleScroll}>
+                <Typography variant="h4">{t("navbar.experience")}</Typography>
+              </a>
             </li>
             <li className="cursor-pointer">
-              <a>{t("navbar.projects")}</a>
+              <a href="#projects" onClick={handleScroll}>
+                <Typography variant="h4">{t("navbar.projects")}</Typography>
+              </a>
             </li>
             <li className="cursor-pointer">
-              <a>{t("navbar.skills")}</a>
+              <a href="#skills" onClick={handleScroll}>
+                <Typography variant="h4">{t("navbar.skills")}</Typography>
+              </a>
             </li>
             <li className="cursor-pointer">
-              <a>{t("navbar.contact")}</a>
+              <a href="#contact" onClick={handleScroll}>
+                <Typography variant="h4">{t("navbar.contact")}</Typography>
+              </a>
             </li>
+
           </ul>
         </div>
       )}
