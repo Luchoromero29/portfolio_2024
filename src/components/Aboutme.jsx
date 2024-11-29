@@ -14,7 +14,7 @@ const Aboutme = () => {
             <div className='dark:text-white flex flex-col  h-full gap-5' >
                 <div className='flex justify-center items-center text-wrap h-[170px] md:justify-start'>
                     <ReactTypingEffect
-                        text={[t("title"), t("welcome")]}
+                        text={[t("welcome"), t("title") ]}
                         speed={100}
                         eraseSpeed={50}
                         eraseDelay={2000}
@@ -23,11 +23,11 @@ const Aboutme = () => {
                     />
                 </div>
                 <Typography variant="span">{t("presentation")}</Typography>
-                <div>
+                <div className="flex justify-center items-center w-full">
                     <a
                     href="/data/CV Luciano Romero - Programador.pdf" 
                     download="CV-Luciano-Romero.pdf" 
-                    className=" bg-secondary p-2 rounded-3xl shadow-md background-image text-gray cursor-pointer hover:text-black duration-150 max-w-40 flex justify-center items-center"> 
+                    className=" bg-secondary p-2 rounded-3xl shadow-md background-image text-gray cursor-pointer hover:text-black duration-150 w-40 flex justify-center items-center"> 
                         <Typography variant="span-bold">{t("cv")}</Typography>
                     </a>
                 </div>
