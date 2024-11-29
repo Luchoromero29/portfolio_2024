@@ -78,5 +78,6 @@
         "frontend": "Frontend",
         "backend": "Backend",
         "tools": "Herramientas"
-    }
+    },
+    "cv": "Descargar CV"
 }

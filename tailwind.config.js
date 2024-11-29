@@ -30,7 +30,8 @@ export default {
           border: '#374151',  
         },
         primary: '#cdffd8',
-        secondary: '#94b9ff'
+        secondary: '#94b9ff',
+        gray: "#919191"
       },
       scale: {
         90: "0.9", // Tamaño reducido para las imágenes en el fondo

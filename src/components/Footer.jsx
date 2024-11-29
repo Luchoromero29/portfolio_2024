@@ -25,8 +25,8 @@ const Footer = () => {
     };
 
     return (
-        <footer className="dark:text-white  w-full flex flex-col px-10 py-5 gap-5 border-t-2 dark:border-dark-secondary border-dark-secondary/30" >
-            <div className="flex flex-col sm:flex-row gap-5 sm:items-start items-center  justify-between  ">
+        <footer className="dark:text-white  w-full flex items-center  flex-col px-10 py-5 gap-5 border-t-2 dark:border-dark-secondary border-dark-secondary/30" >
+            <div className="flex flex-col sm:flex-row gap-5 sm:items-start items-center max-w-[800px] w-full justify-between  ">
                 <div className="flex  items-start justify-start">
                     <div className="flex gap-2 items-center justify-center">
                         <img src={logoLr} className="w-8" />
@@ -90,7 +90,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-[2px] w-full dark:bg-dark-secondary bg-dark-secondary/30"></div>
+            <div className="h-[2px] w-full dark:bg-dark-secondary bg-dark-secondary/30 max-w-[800px]"></div>
             <div className="flex items-center justify-center">
                 <Typography variant="span">Copyright © 2024</Typography>
             </div>
