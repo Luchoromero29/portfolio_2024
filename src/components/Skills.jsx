@@ -21,7 +21,7 @@ const Skills = () => {
 
 
     return (
-    <section id="skills" className="dark:text-white w-full">
+    <section id="skills" className="dark:text-white w-full flex flex-col gap-10">
         <TitleSection title={t("skills.title")} />
         <main className="flex flex-col gap-10">
           <div>
