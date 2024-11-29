@@ -36,7 +36,7 @@ const Aboutme = () => {
                 <img
                     src={imagenPerfil}
                     alt="Perfil"
-                    className="w-full h-full object-cover max-w-[350px]"
+                    className="w-full h-full object-cover max-w-[450px]"
                 />
             </div>
         </section>

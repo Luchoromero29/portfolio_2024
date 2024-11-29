@@ -66,7 +66,7 @@ const Contact = () => {
                 <div className="sm:w-[60%]">
                     <Typography variant="span">{t("contact.description")}</Typography>
                 </div>
-                <div className="flex flex-col gap-2 items-end">
+                <div className="flex flex-col gap-2 sm:items-end items-center">
                     <ButtonLink href="https://www.linkedin.com/in/lucianoromerosilva/" imgSrc={iconLinkedin} altText="linkedin" text={t("contact.linkedin")} />
                     <ButtonLink href="https://github.com/Luchoromero29" imgSrc={isDarkMode ? iconGithubLight : iconGithubDark} altText="github" text={t("contact.github")} />
                     <div onClick={handleCopy}>
