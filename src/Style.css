@@ -30,48 +30,6 @@ html {
 /* Cargo las fuentes del proyecto*/
 
 @font-face {
-    font-family: 'heycomic';
-    src: url('/assets/fonts/Hey Comic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'heroes-legend';
-    src: url('/assets/fonts/Heroes Legend.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'heroes-legend-hollow';
-    src: url('/assets/fonts/Heroes Legend Hollow.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'mainstay';
-    src: url('/assets/fonts/Mainstay.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'woliu-maners';
-    src: url('/assets/fonts/Woliu Maners Demo.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* @font-face {
-    font-family: 'nunito';
-    src: url('src/assets/fonts/Nunito-italic-VariableFont_wght.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-} */
-
-@font-face {
     font-family: 'nunito';
     src: url('/assets/fonts/static/Nunito-Regular.ttf') format('truetype');
     font-weight: 400;
