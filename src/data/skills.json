@@ -103,5 +103,9 @@
     "name": "Autocad",
     "number": 20,
     "image": "/assets/icons/autocad.png"
+  },{
+    "name": "NextJS",
+    "number": 21,
+    "image": "/assets/icons/nextjs.png"
   }
 ]

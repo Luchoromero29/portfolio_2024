@@ -13,7 +13,7 @@ const Skills = () => {
   const skills = jsonSkills;
   const [react, cloudinary, java, jquery, mysql, nodejs, php, tailwind, typescript, 
     materialui, javascript, css, html, thymeleaf, springboot, sequelize, 
-    postman, git, github, unity, autocad] = skills;
+    postman, git, github, unity, autocad, nextjs] = skills;
   
   
   
@@ -46,7 +46,7 @@ const Skills = () => {
                 <ItemSkillVento name={html.name} img={html.image} />
               </div>
               <div className="sm:col-span-1 sm:row-span-1 col-span-1 row-span-2">
-                <ItemSkillVento name={thymeleaf.name} img={thymeleaf.image} />
+                <ItemSkillVento name={nextjs.name} img={nextjs.image} />
               </div>
               <div className="sm:col-span-1 sm:row-span-1 col-span-2 row-span-1">
                 <ItemSkillVento name={jquery.name} img={jquery.image} />
