@@ -25,7 +25,7 @@ const Aboutme = () => {
                 <Typography variant="span">{t("presentation")}</Typography>
                 <div className="flex justify-center items-center w-full">
                     <a
-                    href="/data/CV Luciano Romero - Programador.pdf" 
+                    href="/data/CV Luciano Romero.pdf" 
                     download="CV-Luciano-Romero.pdf" 
                     className=" bg-secondary p-2 rounded-3xl shadow-md background-image text-gray cursor-pointer hover:text-black duration-150 w-40 flex justify-center items-center"> 
                         <Typography variant="span-bold">{t("cv")}</Typography>
