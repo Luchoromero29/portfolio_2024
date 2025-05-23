@@ -17,6 +17,11 @@ import listaEquipos from "/assets/imgs/a3/lista-equipos.png"
 import infoPersona from "/assets/imgs/a3/info-persona.png"
 import formularioEquipo from "/assets/imgs/a3/formulario-equipo.png"
 
+//imagenes de cenumen
+import homeCenumen from "/assets/imgs/cenumen/home.png"
+import inscripcionesComerciantes from "/assets/imgs/cenumen/inscripciones-comerciantes.png" 
+import evento from "/assets/imgs/cenumen/evento.png"
+
 //json de skills
 import jsonSkills from "../data/skills.json"
 
@@ -29,8 +34,15 @@ const Projects = () => {
   const { t } = useTranslation(["content"]);
   const skills = jsonSkills;
   const [react, cloudinary, java, jquery, mysql, nodejs, php, tailwind, typescript, 
-    materialui, javascript ] = skills;
+    materialui, javascript,,,,,,,,,,,, mercadopago ] = skills;
   const projects = {
+    cenumen: {
+      platform: "mobile",
+      images: [homeCenumen, inscripcionesComerciantes, evento],
+      name: "cenumen",
+      skills: [react, typescript, nodejs, mysql, tailwind, cloudinary, mercadopago],
+      url: "https://cenumen.com.ar/",
+    },
     fitbyte: {
       platform: "mobile",
       images: [homeFitbyte, rutinaFitbyte, planFitbyte],
@@ -56,6 +68,7 @@ const Projects = () => {
     <section id="projects" className="w-full dark:text-white">
         <TitleSection title={t("projects.title")} />
         <main className="py-10 flex flex-col gap-5">  
+          <ItemProject project={projects.cenumen}/>
           <ItemProject project={projects.fitbyte}/>
           <ItemProject project={projects.ubuntu}/>
           <ItemProject project={projects.a3}/>

@@ -103,9 +103,15 @@
     "name": "Autocad",
     "number": 20,
     "image": "/assets/icons/autocad.png"
-  },{
+  },
+  {
     "name": "NextJS",
     "number": 21,
     "image": "/assets/icons/nextjs.png"
+  },
+  {
+    "name": "Mercado Pago",
+    "number": 22,
+    "image": "/assets/icons/mercadopago.png"
   }
 ]

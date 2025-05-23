@@ -1,83 +1,87 @@
 {
-    "presentation": "My name is Luciano, a 22-year-old full-stack developer from Godoy Cruz, Mendoza. With over three years of experience in web development, my journey has included courses, specialized training, engineering studies, participation in incubators, and freelance projects. Currently, I am pursuing a degree in Systems Engineering at the National Technological University.",
-    "navbar": {
-        "about": "About me",
-        "experience": "Experience",
-        "projects": "Projects",
-        "skills": "Skills",
-        "contact": "Contact"
+  "presentation": "My name is Luciano, a 22-year-old full-stack developer from Godoy Cruz, Mendoza. With over three years of experience in web development, my journey has included courses, specialized training, engineering studies, participation in incubators, and freelance projects. Currently, I am pursuing a degree in Systems Engineering at the National Technological University.",
+  "navbar": {
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "title": "Software developer",
+  "welcome": "Welcome to my portfolio",
+  "education": {
+    "title": "Experience",
+    "fullstack-java-course": {
+      "title": "Java Full Stack Developer Course",
+      "description": "I started my programming journey with an intensive Java Full Stack Developer course, where I completed over 500 hours in 6 months. I learned Spring Boot, MySQL, Bootstrap, HTML, and CSS, developing full applications from backend to frontend.",
+      "institution": "Egg Education"
     },
-    "title": "Software developer",
-    "welcome": "Welcome to my portfolio",
-    "education": {
-        "title": "Experience",
-        "fullstack-java-course": {
-            "title": "Java Full Stack Developer Course",
-            "description": "I started my programming journey with an intensive Java Full Stack Developer course, where I completed over 500 hours in 6 months. I learned Spring Boot, MySQL, Bootstrap, HTML, and CSS, developing full applications from backend to frontend.",
-            "institution": "Egg Education"
-        },
-        "javascript-course": {
-            "title": "JavaScript Course",
-            "description": "In this course, I gained solid knowledge of JavaScript, starting from the basics to advanced concepts such as asynchronous API requests and callback handling. For the final project, I developed a web application integrating local storage.",
-            "institution": "CoderHouse"
-        },
-        "ing-civil": {
-            "title": "Civil Engineering",
-            "description": "I attended a technical high school, graduating as a Building Construction Technician. Following this path, I decided to study Civil Engineering, successfully completing my first year. However, I realized my true passion was in a different field.",
-            "institution": "National University of Cuyo"
-        },
-        "ing-sistemas": {
-            "title": "Systems Engineering",
-            "description": "I discovered my passion for programming and systems, which led me to switch to Systems Engineering. I am currently in my third year, having passed some courses from the fourth year.",
-            "institution": "National Technological University"
-        },
-        "bootcamp": {
-            "title": "Full Stack Development Bootcamp",
-            "description": "I participated in a bootcamp where we developed a complete application as a team using ReactJS, Java with Spring Boot, and MySQL as the database. Over three months, we worked following the Scrum methodology, improving both technical and teamwork skills.",
-            "institution": "Quinto Impacto"
-        },
-        "freelance": {
-            "title": "Freelance Development",
-            "description": "I currently work as a freelance developer, carrying out various projects ranging from landing pages to specific business applications.",
-            "institution": ""
-        }
+    "javascript-course": {
+      "title": "JavaScript Course",
+      "description": "In this course, I gained solid knowledge of JavaScript, starting from the basics to advanced concepts such as asynchronous API requests and callback handling. For the final project, I developed a web application integrating local storage.",
+      "institution": "CoderHouse"
     },
-    "projects": {
-        "title": "Projects",
-        "github": "Code",
-        "deploy": "Demo",
-        "ubuntu": {
-            "title": "Ubuntu",
-            "description": "I contributed to the development of Ubuntu as part of the Frontend team. Ubuntu is a platform designed to connect investors with sustainable ventures, promoting positive environmental impact and sustainable growth. I worked with ReactJS for the frontend, Java for the backend, and implemented libraries like Cloudinary for image management."
-        },
-        "a3": {
-            "title": "Freelance Work",
-            "description": "I am currently working as a Frontend developer on a web application for managing, planning, and training football teams. The project uses technologies such as PHP, JavaScript, TailwindCSS, and JQuery."
-        },
-        "fitbyte": {
-            "title": "Fitbyte+",
-            "description": "Fitbyte is a personal project aimed at tracking gym routines, statistics, timings, and workouts. I use ReactJS with TailwindCSS for the frontend, Cloudinary for image management, and NodeJS with MySQL for the backend."
-        }
+    "ing-civil": {
+      "title": "Civil Engineering",
+      "description": "I attended a technical high school, graduating as a Building Construction Technician. Following this path, I decided to study Civil Engineering, successfully completing my first year. However, I realized my true passion was in a different field.",
+      "institution": "National University of Cuyo"
     },
-    "viewmore": "View more",
-    "contact": {
-        "title": "Contact",
-        "description": "Thank you for taking the time to explore my portfolio! If you have any questions, want to collaborate, or simply wish to get in touch, feel free to do so through any of the available channels. I am always open to hearing new ideas, resolving doubts, or just exchanging thoughts. You can email me directly, connect with me on LinkedIn, or visit my GitHub profile for more information about my projects. I’ll be happy to respond as soon as possible.",
-        "linkedin": "Personal LinkedIn",
-        "github": "Personal GitHub",
-        "gmail": "Contact Email"
+    "ing-sistemas": {
+      "title": "Systems Engineering",
+      "description": "I discovered my passion for programming and systems, which led me to switch to Systems Engineering. I am currently in my third year, having passed some courses from the fourth year.",
+      "institution": "National Technological University"
     },
-    "copyEmail": "Mail copied!",
-    "footer": {
-        "title": "Luciano Romero - Developer",
-        "linksSite": "This site",
-        "linksSocial": "Social networks"
+    "bootcamp": {
+      "title": "Full Stack Development Bootcamp",
+      "description": "I participated in a bootcamp where we developed a complete application as a team using ReactJS, Java with Spring Boot, and MySQL as the database. Over three months, we worked following the Scrum methodology, improving both technical and teamwork skills.",
+      "institution": "Quinto Impacto"
     },
-    "skills": {
-        "title": "Skills",
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "tools": "Tools"
+    "freelance": {
+      "title": "Freelance Development",
+      "description": "I currently work as a freelance developer, carrying out various projects ranging from landing pages to specific business applications.",
+      "institution": ""
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "github": "Code",
+    "deploy": "Demo",
+    "ubuntu": {
+      "title": "Ubuntu",
+      "description": "I contributed to the development of Ubuntu as part of the Frontend team. Ubuntu is a platform designed to connect investors with sustainable ventures, promoting positive environmental impact and sustainable growth. I worked with ReactJS for the frontend, Java for the backend, and implemented libraries like Cloudinary for image management."
     },
-    "cv": "Download CV"
+    "a3": {
+      "title": "Freelance Work",
+      "description": "I am currently working as a Frontend developer on a web application for managing, planning, and training football teams. The project uses technologies such as PHP, JavaScript, TailwindCSS, and JQuery."
+    },
+    "fitbyte": {
+      "title": "Fitbyte+",
+      "description": "Fitbyte is a personal project aimed at tracking gym routines, statistics, timings, and workouts. I use ReactJS with TailwindCSS for the frontend, Cloudinary for image management, and NodeJS with MySQL for the backend."
+    },
+    "cenumen": {
+      "title": "Cenumen",
+      "description": "Cenumen is a project developed for a client who requested a website to sell tickets and products for an event organized by their institution. Payment gateways such as Mercado Pago were integrated, along with dynamic forms to handle the registration process. Beyond managing ticket sales with QR code generation and validation, the website also serves as an institutional landing page, showcasing the organization's content in a clear and engaging manner."
+    }
+  },
+  "viewmore": "View more",
+  "contact": {
+    "title": "Contact",
+    "description": "Thank you for taking the time to explore my portfolio! If you have any questions, want to collaborate, or simply wish to get in touch, feel free to do so through any of the available channels. I am always open to hearing new ideas, resolving doubts, or just exchanging thoughts. You can email me directly, connect with me on LinkedIn, or visit my GitHub profile for more information about my projects. I’ll be happy to respond as soon as possible.",
+    "linkedin": "Personal LinkedIn",
+    "github": "Personal GitHub",
+    "gmail": "Contact Email"
+  },
+  "copyEmail": "Mail copied!",
+  "footer": {
+    "title": "Luciano Romero - Developer",
+    "linksSite": "This site",
+    "linksSocial": "Social networks"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools"
+  },
+  "cv": "Download CV"
 }
