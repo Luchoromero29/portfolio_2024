@@ -11,6 +11,7 @@
   "welcome": "Bienvenido a mi portfolio",
   "education": {
     "title": "Experiencia",
+    "link-to": "Ver sitio",
     "fullstack-java-course": {
       "title": "Curso de Java Full Stack Developer",
       "description": "Comencé mi camino en programación con un curso intensivo de Java Full Stack Developer, donde acumulé más de 500 horas en 6 meses. Aprendí Spring Boot, MySQL, Bootstrap, HTML y CSS, desarrollando aplicaciones completas desde el backend hasta el frontend.",
@@ -39,6 +40,16 @@
     "freelance": {
       "title": "Desarrollo Freelance",
       "description": "Actualmente, trabajo como desarrollador freelance, llevando a cabo diversos proyectos, desde landing pages hasta aplicaciones específicas para negocios.",
+      "institution": ""
+    },
+    "cenumen": {
+      "title": "Cenumen",
+      "description": "Desarrollé un sitio web para la venta de entradas y productos relacionados con un evento, implementando pasarelas de pago y formularios dinámicos. El sitio también funciona como una landing page institucional.",
+      "institution": ""
+    },
+    "terralajas": {
+      "title": "Terralajas",
+      "description": "Actualmente estoy desarrollando el sitio web de Terralajas, esta destinado a la venta de porciones de tierra en Neuquen, Argentina. La idea del sitio es similar a una inmobiliaria, donde se realiza el contacto con el cliente y se le brinda información sobre la compra de tierra, el sitio actualmente esta en desarrollo.",
       "institution": ""
     }
   },

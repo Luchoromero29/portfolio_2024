@@ -11,6 +11,7 @@
   "welcome": "Welcome to my portfolio",
   "education": {
     "title": "Experience",
+    "link-to": "View site",
     "fullstack-java-course": {
       "title": "Java Full Stack Developer Course",
       "description": "I started my programming journey with an intensive Java Full Stack Developer course, where I completed over 500 hours in 6 months. I learned Spring Boot, MySQL, Bootstrap, HTML, and CSS, developing full applications from backend to frontend.",
@@ -39,6 +40,16 @@
     "freelance": {
       "title": "Freelance Development",
       "description": "I currently work as a freelance developer, carrying out various projects ranging from landing pages to specific business applications.",
+      "institution": ""
+    },
+    "cenumen": {
+      "title": "Cenumen",
+      "description": "I developed a website for selling tickets and products related to an event, implementing payment gateways and dynamic forms. The site also serves as an institutional landing page.",
+      "institution": ""
+    },
+    "terralajas": {
+      "title": "Terralajas",
+      "description": "I am currently developing the website for Terralajas, aimed at selling land parcels in Neuquén, Argentina. The site works similarly to a real estate platform, where clients can get in touch and receive information about purchasing land. The site is currently under development.",
       "institution": ""
     }
   },

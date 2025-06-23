@@ -14,7 +14,6 @@ const ItemProject = ({ project }) => {
   const description = t(`projects.${project.name}.description`);
 
   const images = project.images;
-  console.log(images);
   const skills = project.skills;
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -72,7 +71,7 @@ const ItemProject = ({ project }) => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 w-40    text-white p-2 rounded-lg hover:bg-opacity-80 transition duration-300"
             >
-              <Typography variant="h4">Ir al sitio</Typography>
+              <Typography variant="h4">{t("education.link-to")}</Typography>
               <img
                 src="assets/icons/arrow.png"
                 className="w-4"
@@ -98,7 +97,7 @@ ItemProject.propTypes = {
     skills: PropTypes.arrayOf(
       PropTypes.shape({
         name: PropTypes.string.isRequired,
-        img: PropTypes.string.isRequired,
+        img: PropTypes.string,
       })
     ).isRequired,
     platform: PropTypes.string.isRequired,
